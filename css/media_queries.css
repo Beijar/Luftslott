@@ -1,0 +1,50 @@
+@media(max-width: 1274px){
+    #ipad{
+        display: none;
+    }
+}
+@media(max-width: 1062px){
+    #kamera{
+        display: none;
+    }
+    .contenTwoHeading{
+        padding-top: 10vh;
+    }
+}
+
+@media(max-width: 767px){
+    .infoIcon{
+        margin-top: 70px;
+    }
+    
+    #contentTwoFirst{
+        height: 950px;
+    }    
+}
+
+@media(max-width: 751px){
+    #laptop img{
+        width: 400px;
+    }
+    #wacom img{
+        width:  200px;
+    }
+}
+
+@media(max-width: 660px){
+    .content-b img{
+        width: 80%;
+    }
+    #laptop img{
+        width: 100%;;
+    }
+    #wacom img{
+        display: none;
+    }
+    .contenTwoHeading{
+        padding-top: 5vh;
+    }
+    #contentTwoFirst{
+        height: 1150px;
+    } 
+}
