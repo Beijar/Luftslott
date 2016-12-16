@@ -1,12 +1,11 @@
 $(document).ready(function() {
-    /* Toggle meny styling onClick */
-    $("#mainMenu").click(function() {
-        $(this).toggleClass('is-active');
-        $('.transform').toggleClass('transform-active');
-    });
-    
+    //menu class toggle 
+    $('.navbar-toggler').on('click', function(event) {
+		event.preventDefault();
+		$(this).closest('.navbar-minimal').toggleClass('open');
+	})
     // Add smooth scrolling to all links TODO:CHANGE TO ALL LINKS, CURRENTLY ONLY ON FIRST NAV BUTTON
-    $("#navDown").on('click', function(event) {
+    $("a").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior

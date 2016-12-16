@@ -17,24 +17,49 @@
         <link href="css/animations.css" rel="stylesheet">
         <!-- Menu Styling -->
         <!-- ****************************  TODO: REMOVE UNUSED MENU DESIGNS ************************************************ -->
-        <link href="css/hamburgers.css" rel="stylesheet">
+        <link href="css/menu.css" rel="stylesheet">
     </head>
     <body>
-        <!-- Hamburger menu button & Main Menu -->
-        <button id="mainMenu" class="hamburger hamburger--squeeze" type="button">
-            <span class="hamburger-box">
-                <span class="hamburger-inner"></span>s
-            </span>
-        </button>  
-        <div class="menu transform">
-        </div>
-        <!-- Start screen image & Company Logo -->
-        <div class="bannerBackground" style="background-image:url('assets/img/Background.png');">
-            <div class="content-a">
-                <div class="content-b">
-                    <img src="assets/img/LOGO.png" style="margin-top:-100px;">
+        <nav class="navbar navbar-fixed-left navbar-minimal animate" role="navigation">
+		  <div class="navbar-toggler animate">
+              <span class="menu-icon"></span>
+		  </div>
+		  <ul class="navbar-menu animate">
+			<li>
+				<a href="#homeScreen" class="animate beige">
+					<span class="desc animate"> Hem </span>
+					<span class="glyphicon glyphicon-user"></span>
+				</a>
+			</li>
+			<li>
+				<a href="#contentOne" class="animate blue">
+					<span class="desc animate"> Vilka vi är </span>
+					<span class="glyphicon glyphicon-info-sign"></span>
+				</a>
+			</li>
+			<li>
+				<a href="#contentTwo" class="animate white">
+					<span class="desc animate"> Hur vi jobbar </span>
+					<span class="glyphicon glyphicon-comment"></span>
+				</a>
+			</li>
+            <li>
+				<a href="#contentThree" class="animate red">
+					<span class="desc animate"> Kontakt </span>
+					<span class="glyphicon glyphicon-comment"></span>
+				</a>
+			</li>
+		  </ul>
+	   </nav>
+        <!-- Home screen image & Company Logo -->
+        <div id="homeScreen">
+            <div class="bannerBackground" style="background-image:url('assets/img/Background.png');">
+                <div class="content-a">
+                    <div class="content-b">
+                        <img src="assets/img/LOGO.png" style="margin-top:-100px;">
+                    </div>
                 </div>
-            </div>
+        </div>
         </div>
         <!-- Text and arrow down icon for hinting to rest of content -->  
         <a href="#contentOne" id="navDown">
