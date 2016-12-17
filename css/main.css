@@ -1,11 +1,16 @@
 @font-face {
-    font-family: "Blern";
-    src: url(assets/font/fonts/blern regular.otf) format("opentype");
+    font-family:'Blern';
+    src: url(../assets/font/blern-regular.otf) format('opentype'),
+        url(../assets/font/blern-regular.eot) format('eot'),
+        url(../assets/font/blern-regular.ttf) format('truetype'),
+        url(../assets/font/blern-regular.woff) format('woff'),
+        url(../assets/font/blern-regular.svg) format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-    font-family:"Youngserif";
-    src: url(assets/font/fonts/youngserif-regular.ttf)
-    format(truetype);
+    font-family:'Youngserif';
+    src: url(../assets/font/youngserif-regular.ttf) format('truetype');
 }
 
 hr{

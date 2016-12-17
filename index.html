@@ -16,7 +16,6 @@
         <link href="css/media_queries.css" rel="stylesheet">
         <link href="css/animations.css" rel="stylesheet">
         <!-- Menu Styling -->
-        <!-- ****************************  TODO: REMOVE UNUSED MENU DESIGNS ************************************************ -->
         <link href="css/menu.css" rel="stylesheet">
     </head>
     <body>
@@ -28,7 +27,7 @@
 			<li>
 				<a href="#homeScreen" class="animate beige">
 					<span class="desc animate"> Hem </span>
-					<span class="glyphicon glyphicon-user"></span>
+					<span class="glyphicon glyphicon-home"></span>
 				</a>
 			</li>
 			<li>
@@ -46,7 +45,7 @@
             <li>
 				<a href="#contentThree" class="animate red">
 					<span class="desc animate"> Kontakt </span>
-					<span class="glyphicon glyphicon-comment"></span>
+					<span class="glyphicon glyphicon-envelope"></span>
 				</a>
 			</li>
 		  </ul>
@@ -158,6 +157,11 @@ enheter.</p>
                         <div class="modal-header">
                         </div>
                         <div class="modal-body">
+                            <form method="POST" action="http://formspree.io/patrikbeijar@gmail.com">
+                                <input type="email" name="_replyto" placeholder="Your email">
+                                <textarea name="message" placeholder="Your message"></textarea>
+                                <button type="submit">Send</button>
+                            </form>
                         </div>
                         <div class="modal-footer">
                         </div>
