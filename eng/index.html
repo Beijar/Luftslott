@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Luftslott Studio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- Latest compiled and minified Bootstrap CSS  -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <!-- Styling Reset -->
+        <link href="../css/reset.css" rel="stylesheet">
+        <!-- Main CSS --> 
+        <link href="../css/main.css" rel="stylesheet">
+        <link href="../css/media_queries.css" rel="stylesheet">
+        <link href="../css/animations.css" rel="stylesheet">
+        <!-- Menu Styling -->
+        <link href="../css/menu.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-fixed-left navbar-minimal animate" role="navigation">
+		  <div class="navbar-toggler animate">
+              <span class="menu-icon"></span>
+		  </div>
+		  <ul class="navbar-menu animate">
+			<li>
+				<a href="#homeScreen" class="animate beige">
+					<span class="desc animate"> Hem </span>
+					<span class="glyphicon glyphicon-home"></span>
+				</a>
+			</li>
+			<li>
+				<a href="#contentOne" class="animate blue">
+					<span class="desc animate"> Vilka vi är </span>
+					<span class="glyphicon glyphicon-info-sign"></span>
+				</a>
+			</li>
+			<li>
+				<a href="#contentTwo" class="animate white">
+					<span class="desc animate"> Hur vi jobbar </span>
+					<span class="glyphicon glyphicon-comment"></span>
+				</a>
+			</li>
+            <li>
+				<a href="#contentThree" class="animate red">
+					<span class="desc animate"> Kontakt </span>
+					<span class="glyphicon glyphicon-envelope"></span>
+				</a>
+			</li>
+		  </ul>
+	   </nav>
+        <!-- Home screen image & Company Logo -->
+        <div id="homeScreen">
+            <div class="bannerBackground" style="background-image:url('../assets/img/Background.png');">
+                <div class="content-a">
+                    <div class="content-b">
+                        <img src="../assets/img/LOGO.png" style="margin-top:-100px;">
+                    </div>
+                </div>
+        </div>
+        </div>
+        <!-- Text and arrow down icon for hinting to rest of content -->  
+        <a href="#contentOne" id="navDown">
+            <p id="scrollDownText">Skrolla ner</p>
+            <div class="arrow animated bounce">
+                <img class="arrowDown" src="../assets/img/arrow-down.svg" alt="">
+            </div>
+        </a>
+        <!-- Content screen 1 -->
+        <div id="contentOne">
+            <div class="absolute-center presentation bigPresentationText">
+                <p>DESIGNAR OCH UTVECKLAR DINA DIGITALA IDÈER</p>
+            </div>
+            <div id="contentImageContainer">
+                <div  id="contentOneImages">
+                    <div id="kamera" class="contentOneImage"><img src="../assets/img/KAMERA.png"></div>
+                    <div id="ipad" class="contentOneImage"><img src="../assets/img/IPAD.png"></div>
+                    <div id="laptop" class="contentOneImage"><img src="../assets/img/LAPTOP.png"></div>
+                    <div id="wacom" class="contentOneImage"><img src="../assets/img/WACOM.png"></div>
+                </div>
+            </div>
+            <div class="absolute-center presentation smallPresentationText">
+                <p>Webbyrån från Malmö som är specialiserade på att leverera väldesignade, moderna och sökmotoroptimerade hemsidor.</p>
+            </div>
+        </div>
+        <!-- Content screen 2 -->
+        <div id="contentTwo">
+            <div id="contentTwoFirst">
+                <div id="partOne">
+                    <h1 class="contenTwoHeading">
+                        <span class="animSpan">
+                            <span>Skapar innovativa projekt, med tanke på kundens alla önskemål.</span>
+                        </span>    
+                        <span class="animSpan">
+                            <span>Hjälper dig att designa din idé, utveckla den till en modern applikation av hög kvalité och lanserar den ut i världen!</span>
+                        </span>
+                    </h1>
+                    <div>
+                        <a class="infoBtn toggle one">
+                            Hur då?
+                        </a>
+                    </div>
+                </div>
+                <div id="partTwo">
+                    <div class="container">
+                        <div class="row techInfo">
+                            <div class="col-sm-4">
+                                <img class="infoIcon" src="../assets/img/design_icon.svg">
+                                <h3>Design</h3>
+                                <p>Bra design innebär inte endast en snygg visuell design. Användbarhet och nytta bestämmer framgång eller misslyckande av en webbplats. 
+Besökaren av sidan är den enda person somklickar och avgör allt. Vi skapar alltid en 
+användarcentrerad design som är snygg, 
+genomtänkt och tydlig.</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="infoIcon" src="../assets/img/code_icon.svg">
+                                <h3>KOD</h3>
+                                <p>Vi är ett teknikstarkt företag som 
+arbetar med och tar fram den 
+tekniken som passar bäst till kundens önskemål och idéer.  Vi älskar ny teknik och håller oss ständigt uppdaterade med det 
+senaste från branchen.</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="infoIcon" src="../assets/img/respnsive_icon.svg">
+                                <h3>Alla enheter</h3>
+                                <p>Responsiv design får din webbplats att se professionell ut, i alla lägen! Låt din webbplats möta sina besökare precis så som du vill att den ska göra, oavsett vilken enhet som används. Vi anpassar alltid våra produkter till att fungera för alla dagens mobila- och fasta 
+enheter.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="infoBtn toggle two">
+                            X
+                    </a>
+                </div>
+            </div>
+            <div id="contentTwoLast">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img id="profil" src="../assets/img/profil_2.png">
+                        </div>
+                        <div class="col-md-10">
+                            <p class="quote"><span class="quoteMarker">"</span> Efter examen i Information- & Datavetenskap grundade jag <span class="company">Luftslott Studio</span> med målsättning att erbjuda moderna och kreativa webb-platser och mobila applikationer med stor fokus på användbarhet och design. <span class="quoteMarker">"</span></p>
+                            <br>
+                            <p class="quote name"> - Patrik Beijar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Content screen temp.sell -->
+        <div id="sellingPage">
+        </div>
+        <!-- Conten2et screen 3 -->
+        <div id="contentThree">
+            <div id="contact">
+                <h3>Vill  du  prata webb  med oss.</h3>
+                <h3>som att renovera om en  befintlig webbplats</h3>
+                <h3> eller skapa en ny.</h3>
+                <a class="infoBtn contactButton" data-toggle="modal" data-target="#mailModal">
+                    KONTAKT
+                </a>
+            </div>
+            <div id="mailModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        </div>
+                        <div class="modal-body">
+                            <form method="POST" action="http://formspree.io/patrikbeijar@gmail.com">
+                                <input type="email" name="_replyto" placeholder="Your email">
+                                <textarea name="message" placeholder="Your message"></textarea>
+                                <button type="submit">Send</button>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="mapContainer">
+                <div id="map"></div>
+            </div>
+        </div>
+        <!-- Jquery Version 3 -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!-- Main JS -->
+        <script src="../js/main.js" type="application/javascript"></script>
+        <!-- Latest compiled and minified Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- Google maps API & Config -->
+        <script src="../js/map_config.js" type="application/javascript"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCz2y22je7OhGVtvYcZbEU4anoPX6N4vTQ&callback=initMap"async defer></script>
+    </body>
+</html>

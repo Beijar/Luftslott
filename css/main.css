@@ -246,6 +246,7 @@ hr{
 
 
 #profil{
+    margin-top: -40px;
     width: 170px;
     border-radius: 100%;
     border-style: solid;
@@ -266,7 +267,7 @@ hr{
 }
 
 .name{
-    text-align: center;
+    text-align: right;
 }
 
 .company{
