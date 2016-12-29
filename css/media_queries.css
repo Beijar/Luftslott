@@ -10,6 +10,9 @@
     .contenTwoHeading{
         padding-top: 10vh;
     }
+    .col-sm-4{
+        margin-top: -20px;
+    }
 }
 
 @media(max-width: 767px){
@@ -17,9 +20,12 @@
         margin-top: 70px;
     }
     
-    #contentTwoFirst{
+    /*#contentTwoFirst{
         height: 950px;
-    }    
+    } */
+    .two{
+        margin-top: 50px;
+    }
 }
 
 @media(max-width: 751px){
@@ -44,7 +50,7 @@
     .contenTwoHeading{
         padding-top: 5vh;
     }
-    #contentTwoFirst{
+    /* #contentTwoFirst{
         height: 1150px;
-    } 
+    } */
 }

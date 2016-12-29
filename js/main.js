@@ -25,11 +25,11 @@ $(document).ready(function() {
     }
   });
     // Moves banner image on mouseover function
-    $('.bannerBackground').mousemove(function(e){
+    /**$('.bannerBackground').mousemove(function(e){
         var amountMovedX = (e.pageX * -0.5 / 60);
         var amountMovedY = (e.pageY * -1 / 30);
         $(this).css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
-    });
+    });   */
     // Slide toggle two divs on button click in content screen 2 
     $("#partOne").show();
     $("#partTwo").hide();
