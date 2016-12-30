@@ -12,7 +12,6 @@
     font-family:'Youngserif';
     src: url(../assets/font/youngserif-regular.ttf) format('truetype');
 }
-
 hr{
     z-index: 2;
     padding: 0;
@@ -21,15 +20,14 @@ hr{
     border: 0;
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
-
 .desc{
     font-family: 'Youngserif';
     font-size: 20px;
 }
-
 /*** HomeScreen Styling ***/
 .bannerBackground{
     height: 100vh;
+    background-image:url('../assets/img/Background.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,7 +69,6 @@ hr{
     margin-left:-40px;
     width: 80px;
 }
-
 /***** Content Screen 1 styling *****/
 #contentOne{
     height:100vh; 
@@ -108,11 +105,9 @@ hr{
     -moz-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
 }
-
 .contentOneImage:hover{
     -webkit-transform: scale(1.1);
 }
-
 .presentation{
     font-family: 'Josefin Slab', serif;
     font-weight: bold;
@@ -120,7 +115,6 @@ hr{
     height: 25vh;
     text-align: center;
 }
-
 .absolute-center {
     /* Internet Explorer 10 */
     display:-ms-flexbox;
@@ -139,22 +133,26 @@ hr{
     box-pack:center;
     box-align:center;
 }
-
 .bigPresentationText{
     font-size: 30px;
 }
-
 .smallPresentationText{
     font-size: 22px;
 }
-
-
+#triangelBottomLeft{
+    display: block;
+    margin-left: 10%;
+    float: left;
+	width: 0;
+	height: 0;
+	border-bottom: 70px solid #ebebeb;
+	border-right: 70px solid transparent;
+}
 /**** Content Screen 2 styling *****/
 #contentTwoFirst{
     height:50vh; 
     background-color:#9ac8cc;
 }
-
 .contenTwoHeading{
     padding-top: 20vh;
     margin: auto;
@@ -169,7 +167,6 @@ hr{
     width: 100%;
     display: block;
 }
-
 .infoBtn{
 	-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
 	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
@@ -182,31 +179,27 @@ hr{
 	text-decoration: none;
 	border-radius: 4px;
 	padding: 20px 20px;
-    color: rgba(255, 85, 85, 0.69);
-	box-shadow: rgba(255, 85, 85, 0.69) 0 0px 0px 2px inset;
+    color: rgba(180, 65, 65, 0.89);
+	box-shadow: rgba(180, 65, 65, 0.89) 0 0px 0px 2px inset;
     text-align: center;
     font-family: 'Josefin Slab', serif;
     font-weight: bold;
     font-size: 20px;
 }
-
 .infoBtn:hover {
 	color: rgba(232, 232, 232, 0.88);
-	box-shadow: rgba(255, 85, 85, 0.4) 0 80px 0px 2px inset;
+	box-shadow:rgba(180, 65, 65, 0.89) 0 80px 0px 2px inset;
     cursor: pointer;
 }
-
 .two{
     max-width: 60px;
     border-radius: 100%;
     margin-top: 20px;
 }
-
 #contentTwoLast{
     height:50vh; 
     background-color:#9ac8cc;
 }
-
 .infoIcon{
     width: 100px;
     margin-top: 50px;
@@ -215,36 +208,28 @@ hr{
     -moz- transition:         transform .7s ease-in-out;
     transition:         transform .7s ease-in-out;
 }
-
 .infoIcon:hover{
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     transform: rotate(360deg);
 }
-
 .techInfo{
     color: #FFF;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
-
 .techInfo h3{
     font-size: 2em;
     font-weight: bold;
     margin-bottom: 10px;
 }
-
 .techInfo p{
-    font-size: 1em;
+    font-size: 18px;
     line-height: 1.2em;
-    text-align: 
 }
-
 #contentTwoLast{
     padding-top: 8%;
 }
-
-
 #profil{
     margin-top: -40px;
     width: 170px;
@@ -254,7 +239,6 @@ hr{
     border-width: 3px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
-
 .quote{
     font-family: 'Youngserif';
     font-size: 1.3em;
@@ -265,21 +249,17 @@ hr{
     font-size: 1.3em;
     color:#90575e;
 }
-
 .name{
     text-align: right;
 }
-
 .company{
-    color: #9a4d4d;
+    color: #ad5656;
 }
-
 #contact{
     height: 50vh;
     background-color: #7b4a4a;
     padding-top: 10vh;
 }
-
 #contact h3{
     color: #FFF;
     font-family: 'Blern', sans-serif;
@@ -288,22 +268,95 @@ hr{
     font-weight: bold;
     margin-bottom: 10px;
 }
-
 .contactButton{
     color: rgb(255, 255, 255);
     box-shadow: rgba(255, 255, 255, 0.69) 0 0px 0px 2px inset;
 }
-
 .contactButton:hover{
     color: rgba(255, 255, 255, 0.88);
 	box-shadow: rgba(242, 242, 242, 0.6) 0 80px 0px 2px inset;
+}
+.modal-content{
+    background-color: #6a4141;
+}
+.modal-header{
+    border-bottom: none;
+}
+.modal-header{
+    padding-bottom: 0;
+}
+#mailIcon{
+    width: 25%;
+    margin-left: 35%;
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.35);
+}
+form{
+    background-color: #6a4141;
+    padding: 10px 40px 60px;
+    left: 50%;
+    font-family: 'Blern', monospace;
+    font-size: 20px;
+}
+input, textarea{
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    margin-bottom: 25px;
+    box-shadow: none;
+    appearance: none;
+    border: none;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #c1c1c1;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+input{
+    height: 5vh;
+}
+textarea{
+    height: 30vh;
+    max-width: 100%;
+}
+form button{
+    width: 100%;
+    height: 5vh;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    cursor: pointer;
+    background: #8ccec3;
+    color: #fff;
+    transition: 0.8s all ease;
+    font-size: 18px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+form button:hover{
+    background: rgb(114, 162, 154);
+    transform: translateY(2px);
+    transition: 0.4s all ease;
+}
+.modal-footer{
+    border-top-color: #b1b1b1;
+}
+.modal-footer h2{
+    color:#dedede;
+    font-family: monospace;
+    font-size: 16px;
 }
 
 #mapContainer{
     height: 50vh;
     background-color: #ebebeb;
 }
-
 /* Always set the map height explicitly to define the size of the div
 * element that contains the map. */
 #map {

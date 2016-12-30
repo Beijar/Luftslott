@@ -2,6 +2,9 @@
     #ipad{
         display: none;
     }
+    #profil{
+        width: 140px;
+    }
 }
 @media(max-width: 1062px){
     #kamera{
@@ -13,16 +16,18 @@
     .col-sm-4{
         margin-top: -20px;
     }
+    #contentTwoFirst{
+        height: 50vh;
+    }
 }
 
-@media(max-width: 767px){
+@media(max-width: 768px){
     .infoIcon{
         margin-top: 70px;
     }
-    
-    /*#contentTwoFirst{
-        height: 950px;
-    } */
+    .navbar-minimal:toggle {
+    background-color: black;
+    }
     .two{
         margin-top: 50px;
     }
@@ -50,7 +55,38 @@
     .contenTwoHeading{
         padding-top: 5vh;
     }
-    /* #contentTwoFirst{
-        height: 1150px;
-    } */
+}
+
+@media(max-width: 450px){
+    .contenTwoHeading{
+        padding-top: 10vh;
+    }
+    #contentTwoFirst{
+        height: 80vh;
+    }
+    #contentTwoLast{
+        height: 80vh;
+    }
+    #contact h3{
+        font-size: 1.5em;
+    }
+}
+@media(max-width: 410px){
+    .navbar-minimal.open {
+        width: 375px;
+    } 
+}
+@media(max-width: 325px){
+    .navbar-minimal.open {
+        width: 320px;
+    }
+    #contentTwoFirst{
+        height: 100vh;
+    }
+    #contentTwoLast{
+        height: 100vh;
+    }
+    #contact h3{
+        font-size: 1.2em;
+    }
 }
