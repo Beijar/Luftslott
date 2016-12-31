@@ -74,7 +74,13 @@
 @media(max-width: 410px){
     .navbar-minimal.open {
         width: 375px;
-    } 
+    }
+    #contentTwoFirst{
+        height: 95vh;
+    }
+    #contentTwoLast{
+        height: 95vh;
+    }
 }
 @media(max-width: 325px){
     .navbar-minimal.open {

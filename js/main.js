@@ -33,8 +33,18 @@ $(document).ready(function() {
     // Slide toggle two divs on button click in content screen 2 
     $("#partOne").show();
     $("#partTwo").hide();
-    
-     $(".toggle").click(function () {       
+    var control = 1;
+    $(".toggle").click(function () {
+        if ($(window).width() < 768 && $(window).height() < 740){
+            if(control % 2 == 1){
+                $("#contentTwoFirst").css("height", "180vh");
+                control++;
+            }
+            else{
+                $("#contentTwoFirst").css("height", "95vh");
+                control--;
+            }
+        }
         $("#partOne, #partTwo").slideToggle(400);      
     });
 });
