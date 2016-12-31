@@ -21,6 +21,12 @@
     }
 }
 
+@media all and (max-width:420px), (max-device-width:420px){
+    .bannerBackground{
+        background-image: url('../assets/img/Background_small.png');
+    }
+}
+
 @media(max-width: 768px){
     .infoIcon{
         margin-top: 70px;

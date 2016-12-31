@@ -10,7 +10,7 @@
 }
 @font-face {
     font-family:'Youngserif';
-    src: url(../assets/font/youngserif-regular.ttf) format('truetype');
+    src: url('../assets/font/youngserif-regular.ttf') format('truetype');
 }
 hr{
     z-index: 2;
@@ -25,8 +25,10 @@ hr{
     font-size: 20px;
 }
 /*** HomeScreen Styling ***/
-.bannerBackground{
+.homeScreen{
     height: 100vh;
+}
+.bannerBackground{
     background-image:url(../assets/img/Background.png);
     background-attachment: fixed;
     background-position: center;
