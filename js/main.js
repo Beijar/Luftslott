@@ -1,4 +1,15 @@
 $(document).ready(function() {
+    //Move 4 images in preparation for slide in animation
+    if (($(window).width() <= 1024) && ($(window).height() <= 1366)) {
+        //$("#laptop").css("margin-left", "-1000px");
+        //$("#wacom").css("margin-left", "-500px");
+    }
+    else {
+        $("#kamera").css("margin-left", "-1500px");
+        $("#ipad").css("margin-left", "-1000px");
+        $("#laptop").css("margin-left", "-500px");
+        $("#wacom").css("margin-left", "-250px");
+    }
     //menu class toggle 
     $('.navbar-toggler').on('click', function(event) {
 		event.preventDefault();
@@ -10,10 +21,8 @@ $(document).ready(function() {
     if (this.hash !== "") {
       // Prevent default anchor click behavior
       event.preventDefault();
-
       // Store hash
       var hash = this.hash;
-
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
@@ -46,5 +55,25 @@ $(document).ready(function() {
             }
         }
         $("#partOne, #partTwo").slideToggle(400);      
+    });
+    //activate slide in animation when scroll bar reaches a certain pixel value
+    var scrollCheck = true
+    $(window).scroll(function() {
+        if($(this).height() < 750){
+            if ($(this).scrollTop() > 500 && scrollCheck == true){
+                scrollCheck = false;
+                $( "#kamera" ).addClass("kameraAnim");
+                $( "#ipad" ).addClass("ipadAnim");
+                $( "#laptop" ).addClass("laptopAnim");
+                $( "#wacom" ).addClass("wacomAnim");
+            }
+        } 
+        if ($(this).scrollTop() > 700 && scrollCheck == true) {
+            scrollCheck = false;
+            $( "#kamera" ).addClass("kameraAnim");
+            $( "#ipad" ).addClass("ipadAnim");
+            $( "#laptop" ).addClass("laptopAnim");
+            $( "#wacom" ).addClass("wacomAnim");
+        }
     });
 });

@@ -10,7 +10,10 @@
 }
 @font-face {
     font-family:'Youngserif';
-    src: url('../assets/font/youngserif-regular.ttf') format('truetype');
+    src: url('../assets/font/youngserif-regular.ttf') format('truetype'),
+        url(../assets/font/youngserif-regular.eot) format('eot'),
+        url(../assets/font/youngserif-regular.woff) format('woff'),
+        url(../assets/font/youngserif-regular.svg) format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -31,7 +34,11 @@ hr{
     height: 100vh;
 }
 .bannerBackground{
-    background-image:url(../assets/img/Background.png);
+    background-image:url('../assets/img/Background.png');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -102,7 +109,7 @@ hr{
 #contentOneImages{
     display: block;
 }
-.contentOneImage{
+.contentOneImage{ 
     display: inline-block;
     -webkit-transition: all 100ms ease-in-out; 
     -ms-transition: all 200ms ease-in-out;

@@ -28,6 +28,9 @@
 }
 
 @media(max-width: 768px){
+    .bannerBackground{
+        background-attachment:scroll;
+    }
     .infoIcon{
         margin-top: 70px;
     }
