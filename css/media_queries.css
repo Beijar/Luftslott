@@ -17,7 +17,7 @@
         margin-top: -20px;
     }
     #contentTwoFirst{
-        height: 50vh;
+        height: 55vh;
     }
 }
 
@@ -28,17 +28,20 @@
 }
 
 @media(max-width: 768px){
+    #contentTwoFirst{
+        height: 58vh;
+    }
     .bannerBackground{
         background-attachment:scroll;
     }
     .infoIcon{
         margin-top: 70px;
     }
-    .navbar-minimal:toggle {
-    background-color: black;
-    }
     .two{
         margin-top: 50px;
+    }
+    .col-sm-4{
+        min-height: 500px;
     }
 }
 

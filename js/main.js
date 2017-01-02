@@ -46,7 +46,7 @@ $(document).ready(function() {
     $(".toggle").click(function () {
         if ($(window).width() < 768 && $(window).height() < 740){
             if(control % 2 == 1){
-                $("#contentTwoFirst").css("height", "185vh");
+                $("#contentTwoFirst").css("height", "240vh");
                 control++;
             }
             else{

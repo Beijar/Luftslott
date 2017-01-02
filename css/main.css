@@ -161,7 +161,7 @@ hr{
 }
 /**** Content Screen 2 styling *****/
 #contentTwoFirst{
-    height:50vh; 
+    height:60vh; 
     background-color:#9ac8cc;
 }
 .contenTwoHeading{
@@ -211,9 +211,22 @@ hr{
     height:50vh; 
     background-color:#9ac8cc;
 }
+.col-sm-4{
+    min-height: 430px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.infoOdd{
+   background-color: rgb(49, 79, 87); 
+}
+
+.infoEven{
+    background-color: rgb(70, 115, 126); 
+}
+
 .infoIcon{
     width: 100px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 10px;
     -webkit-transition: -webkit-transform .7s ease-in-out;
     -moz- transition:         transform .7s ease-in-out;
