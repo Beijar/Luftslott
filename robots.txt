@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: assets/img/Background.png/
-Disallow: assets/img/Background_small.png/
